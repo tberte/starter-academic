@@ -5,7 +5,7 @@ organizations:
 superuser: true
 authors:
   - admin
-title: Nelson Bighetti
+title: Hello there
 role: Professor of Artificial Intelligence
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
