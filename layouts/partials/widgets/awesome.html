@@ -3,7 +3,7 @@
     {{ $gistJ := getJSON $urlPre "/v2/persons/23610/results" }}
     {{ range first 5 $gistJ }}
       {{ if .category }}
-        <li><a href="{{ .html_url }}" target="_blank">{{ .title }}</a></li>
+        <li><a href="{{ .html_url }}" target="_blank">{{ title }}</a></li>
       {{ end }}
     {{ end }}
   </ul>
